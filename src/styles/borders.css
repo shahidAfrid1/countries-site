@@ -1,0 +1,31 @@
+
+.border{
+    width: 27vw;
+    padding: 2vw 6vw;
+    margin:0 1vw 3vw;
+    box-shadow: 0 0 5px rgb(203, 203, 203);
+    border-radius: .5vw;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+.border.dark{
+    color: white;
+    background-color: var(--dark-blue-elements);
+    box-shadow: 0 0 5px hsl(200, 15%, 8%);
+}
+
+@media (min-width: 600px) {
+    .border{
+        width: 162px;
+        margin: 0 10px 20px;
+        padding: 12px 36px;
+    }
+}
+@media (min-width: 1024px) {
+    .border{
+        width: 9.5vw;
+        margin: 0 .5vw 1vw;
+        padding: .5vw 2vw;
+    }
+}

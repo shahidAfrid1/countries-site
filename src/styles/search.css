@@ -1,0 +1,189 @@
+.form{
+    margin-bottom: 10vw;
+}
+
+@media (min-width: 480px) {
+    .form{
+        margin-bottom: 48px;
+    }
+}
+
+@media (min-width: 786px) {
+    .form{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+@media (min-width: 1024px) {
+    .form{
+        margin-bottom: 3vw;
+    }
+}
+
+.search-bar{
+    position: relative;
+} 
+
+.search-bar img{
+    position: absolute;
+    width: 3.8vw;
+    top: 4.5vw;
+    left: 8vw;
+}
+
+@media (min-width: 480px) {
+    .search-bar img{
+        width: 19px;
+        top: 33.6px;
+        left: 38px;
+    }
+}
+
+@media (min-width: 786px) {
+    .search-bar img{
+        top: 20px;
+        left: 38px;
+    }
+}
+@media (min-width: 1024px) {
+    .search-bar img{
+        width: 1.5vw;
+        top: 1.4vw;
+        left: 3vw;
+    }
+}
+.search-bar input{
+    width: 100%;
+    height: 12vw;
+    margin: 0 0 11vw;
+    text-indent: 18vw;
+    font-family: "Nunito Sans", sans-serif;
+    border: none;
+    border-radius: .5vw;
+    box-shadow: 1px 1px 7px rgb(224, 224, 224);
+    font-size: 3.7vw;
+    font-weight: 600;
+}
+
+
+
+
+.search-bar input.dark{
+    background-color: hsl(209, 23%, 22%);
+    color: white;
+    box-shadow: none;
+}
+
+.search-bar input::placeholder{
+    font-size: 3.2vw;
+    font-weight: 600;
+    opacity: .5;
+}
+
+@media (min-width: 480px) {
+    .search-bar input{
+        width: 432px;
+        height: 57px;
+        margin: 15px 0 53px;
+        font-size: 16px;
+        text-indent: 80px;
+    }
+    
+    .search-bar input::placeholder{
+        font-size: 14px;
+    }
+}
+
+
+@media (min-width: 786px) {
+    .search-bar input{
+        margin: 0;
+    }
+}
+@media (min-width: 1024px) {
+    .search-bar input{
+        width: 33.5vw;
+        height: 4.17vw;
+        font-size: 16px;
+        text-indent: 80px;
+    }
+    .search-bar input::placeholder{
+        font-size: 1.1vw;
+    }
+    
+}
+.search-bar input.dark::placeholder{
+    color: white;
+    opacity: 1;
+}
+
+.search-bar input:focus{
+    outline: none;
+}
+
+.filterDropdown{
+    position: relative;
+    width: fit-content;
+}
+
+.filterDropdown img{
+    position: absolute;
+    width: 4vw;
+    top: 4.5vw;
+    right: 5vw;
+}
+
+@media (min-width: 480px) {
+    .filterDropdown img{
+        width: 19.2px;
+        top: 22px;
+        right: 20px;
+    }
+}
+@media (min-width: 1024px) {
+    .filterDropdown img{
+        width: 1.3vw;
+        top: 1.6vw;
+        right: 1.3vw;
+    }
+}
+
+
+.filterDropdown select{
+    font-family: "Nunito Sans", sans-serif;
+    width: 53vw;
+    height: 12vw;
+    border: none;
+    border-radius: .5vw;
+    box-shadow: 1px 1px 7px rgb(224, 224, 224);
+    padding-left: 5vw;
+    font-size: 3.1vw;
+    font-weight: 600;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+}
+
+@media (min-width: 480px) {
+    .filterDropdown select{
+        width: 255px;
+        height: 60px;
+        font-size: 15px;
+    }
+}
+@media (min-width: 1024px) {
+    .filterDropdown select{
+        width: 14vw;
+        height: 4.17vw;
+        font-size: 1vw;
+        padding-left: 2vw;
+    }
+}
+
+.filterDropdown select.dark{
+    background-color: hsl(209, 23%, 22%);
+    color: white;
+    box-shadow: none;
+}

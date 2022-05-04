@@ -1,0 +1,86 @@
+@import "../styles/global.css";
+
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8vw 4vw;
+  box-shadow: 1px 1px 5px rgb(202, 202, 202);
+}
+
+@media (min-width: 480px) {
+  nav {
+    padding: 38.5px 20px;
+  }
+}
+
+@media (min-width: 1024px) {
+  nav {
+    padding: 2vw 5vw;
+  }
+}
+
+nav.dark {
+  background-color: var(--dark-blue-elements);
+  color: white;
+}
+
+nav h1 {
+  font-size: 4vw;
+  font-weight: 800;
+}
+
+@media (min-width: 480px) {
+  nav h1 {
+    font-size: 19.5px;
+  }
+}
+
+@media (min-width: 1024px) {
+  nav h1 {
+    font-size: 1.7vw;
+  }
+}
+
+nav .mode {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+nav .mode img {
+  width: 4vw;
+}
+
+@media (min-width: 480px) {
+  nav .mode img {
+    width: 19.3px;
+  }
+}
+
+@media (min-width: 1024px) {
+  nav .mode img {
+    width: 1.2vw;
+  }
+}
+
+nav .mode p {
+  font-size: 3.2vw;
+  margin-left: 2vw;
+  font-weight: 600;
+}
+
+@media (min-width: 480px) {
+  nav .mode p {
+    font-size: 15.4px;
+    margin-left: 10px;
+  }
+}
+
+@media (min-width: 1024px) {
+  nav .mode p {
+    font-size: 1.15vw;
+    margin-left: 1vw;
+  }
+}

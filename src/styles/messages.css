@@ -1,0 +1,13 @@
+.msg{
+    position: absolute;
+    font-size: 3vw;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: hsl(0, 0%, 52%);
+    opacity: .7;
+}
+.msg.dark{
+    color: white;
+    background-color: hsl(207, 26%, 17%);
+}

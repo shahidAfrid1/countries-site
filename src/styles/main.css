@@ -1,0 +1,15 @@
+main{
+    width: 100%;
+    min-height: 100vh;
+    padding: 4vw 5vw;
+}
+
+@media (min-width: 1150px) {
+    main{
+        padding: 2.5vw 5.5vw;
+    }
+}
+
+main.dark{
+    background-color: hsl(207, 26%, 17%);
+}
